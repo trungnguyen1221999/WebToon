@@ -32,6 +32,8 @@ body {
 .container {
   max-width: 1125px;
   margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 /* header -nav */
@@ -151,7 +153,7 @@ body {
 .trending__list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
   gap: 20px;
 }
 
@@ -272,4 +274,28 @@ body {
   width: 440px;
   height: 210px;
   grid-column: span 2;
+}
+
+.new {
+  padding-top: 30px;
+}
+
+.h2_heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.new .trending__item1 .trending__img {
+  background: url(./new-01.jpg) no-repeat center center/cover;
+}
+.new .trending__item2 .trending__img {
+  background: url(./new-02.jpg) no-repeat center center/cover;
+}
+.new .trending__item3 .trending__img {
+  background: url(./new-03.jpg) no-repeat center center/cover;
+}
+.new .trending__item4 .trending__img {
+  background: url(./new-04.jpg) no-repeat center center/cover;
 }
