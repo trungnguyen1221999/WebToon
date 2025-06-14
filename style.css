@@ -299,3 +299,53 @@ body {
 .new .trending__item4 .trending__img {
   background: url(./new-04.jpg) no-repeat center center/cover;
 }
+
+.genres {
+  padding-top: 30px;
+}
+
+.horror,
+.sports {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #f97316;
+  color: white;
+}
+
+.horror_heading {
+  position: absolute;
+}
+
+.horror_desc {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
+.genres .badge {
+  background-color: #f97316;
+  color: black;
+}
+
+.sports {
+  background-color: var(--primary-color);
+}
+.sport {
+  padding-top: 20px;
+}
+
+.sport .trending__item1 .trending__img {
+  background: url(./cate-05.jpg) no-repeat center center/cover;
+}
+.sport .trending__item2 .trending__img {
+  background: url(./cate-06.jpg) no-repeat center center/cover;
+}
+.sport .trending__item3 .trending__img {
+  background: url(./cate-07.jpg) no-repeat center center/cover;
+}
+.sport .trending__item4 .trending__img {
+  background: url(./cate-08.jpg) no-repeat center center/cover;
+}
